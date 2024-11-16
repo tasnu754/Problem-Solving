@@ -13,7 +13,10 @@ int main(){
     
     while(t--){
     
-        
+        long long a, b, n, s;
+        cin>>a>>b>>n>>s;
+
+        cout<<((s - (s < a*n ? s/n*n : a*n) > b) ? "NO" : "YES")<<endl;
     
     }
 

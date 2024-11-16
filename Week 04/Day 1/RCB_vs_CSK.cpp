@@ -7,15 +7,14 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t;
-    cin>>t;
+    int x, y;
+    cin>>x>>y;
+
+    if((x-y) >= 18)
+        cout<<"RCB"<<endl;
+    else
+        cout<<"CSK"<<endl;
     
-    
-    while(t--){
-    
-        
-    
-    }
 
 
     return 0;
